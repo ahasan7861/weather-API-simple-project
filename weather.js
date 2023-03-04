@@ -33,6 +33,7 @@ const displayTemperature = data => {
 
 
 
+
 const setInnerTextById = (id, text) => {
     const tempareture = document.getElementById(id);
    
@@ -48,14 +49,6 @@ document.getElementById('btn-search').addEventListener('click', function(){
 
     loadTempareture(city);
 })
-
-
-
-
-
-
-
-
 
 loadTempareture('city')
 
